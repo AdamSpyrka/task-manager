@@ -12,7 +12,8 @@ Simple command-line task manager written in Python.
 
 ## How it works
 
-The application stores tasks in a local `tasks.json` file.
+Tasks are stored in a local `tasks.json` file and persist between program runs.
+Each task includes an ID, title, and completion status.
 
 Each task contains:
 - unique ID
@@ -47,7 +48,7 @@ Choose an option: 2
 ## Technologies
 
 - Python 3
-- JSON
+- JSON (file-based storage)
 - Standard library
 
 ## Project structure
